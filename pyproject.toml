@@ -1,0 +1,17 @@
+[project]
+name = "passwordmerger"
+version = "0.1.0"
+description = "Merge password files from Apple Passwords, Dashlane and Google Password Manager"
+readme = "README.md"
+authors = [
+    { name = "John Buzzell", email = "john_buzzell@yahoo.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+passwordmerger = "passwordmerger:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
